@@ -1,42 +1,24 @@
 <div align="center">
 
-  <!-- AssetD — top divider -->
+  <!-- ========================================= -->
+
+  <!-- ZENOMO STUDIOS HEADER -->
+
+  <!-- ========================================= -->
 
 <img
- src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetD.png"
- width="80%"
- alt=""
+ src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/header.svg"
+ width="100%"
+ alt="Zenomo Studios"
 />
 
 <br><br>
 
-  <!-- AssetB — animated banner -->
+  <!-- ========================================= -->
 
-  <div style="position: relative; display: inline-block; width: 100%; max-width: 1200px;">
+  <!-- LOGO -->
 
-```
-<img
-  src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetB.webp"
-  width="100%"
-  alt="Zenomo Studios"
-/>
-```
-
-  </div>
-
-<br><br>
-
-  <!-- AssetD — bottom divider -->
-
-<img
- src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetD.png"
- width="80%"
- alt=""
-/>
-
-<br><br>
-
-  <!-- Logo -->
+  <!-- ========================================= -->
 
 <img
  src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/ZenomoL.png"
@@ -46,9 +28,17 @@
 
   <h1>Welcome to Zenomo Studios</h1>
 
+  <p>
+    <strong>Creative development • Design • Technology</strong>
+  </p>
+
   <br>
 
-  <!-- Devicons -->
+  <!-- ========================================= -->
+
+  <!-- TECHNOLOGIES -->
+
+  <!-- ========================================= -->
 
   <h2>Technologies &amp; Tools</h2>
 
@@ -56,5 +46,19 @@
  src="https://skillicons.dev/icons?i=html,css,js,ts,python,git,github,vscode"
  alt="HTML, CSS, JavaScript, TypeScript, Python, Git, GitHub and VS Code"
 />
+
+<br><br>
+
+  <!-- ========================================= -->
+
+  <!-- ABOUT -->
+
+  <!-- ========================================= -->
+
+  <h2>About Zenomo Studios</h2>
+
+  <p>
+    Building creative digital experiences, software and technology.
+  </p>
 
 </div>
