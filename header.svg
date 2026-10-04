@@ -1,0 +1,180 @@
+<svg
+  width="1200"
+  height="430"
+  viewBox="0 0 1200 430"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+  <!-- =========================================
+       BANNER
+  ========================================== -->
+
+  <image
+    x="0"
+    y="0"
+    width="1200"
+    height="430"
+    preserveAspectRatio="xMidYMid slice"
+    xlink:href="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetB.webp"
+  />
+
+  <!-- Dark overlay -->
+  <rect
+    width="1200"
+    height="430"
+    fill="black"
+    fill-opacity="0.38"
+  />
+
+  <!-- =========================================
+       MOVING LIGHT
+  ========================================== -->
+
+  <circle
+    cx="100"
+    cy="210"
+    r="180"
+    fill="white"
+    fill-opacity="0.08"
+  >
+    <animate
+      attributeName="cx"
+      values="100;1100;100"
+      dur="12s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="cy"
+      values="210;160;210"
+      dur="8s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <!-- =========================================
+       TOP DIVIDER
+  ========================================== -->
+
+  <image
+    x="175"
+    y="55"
+    width="850"
+    height="55"
+    preserveAspectRatio="xMidYMid meet"
+    xlink:href="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetD.png"
+  >
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="1.5s"
+      fill="freeze"
+    />
+  </image>
+
+  <!-- =========================================
+       LOGO
+  ========================================== -->
+
+  <image
+    x="510"
+    y="105"
+    width="180"
+    height="180"
+    preserveAspectRatio="xMidYMid meet"
+    xlink:href="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetL.png"
+  >
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="1.2s"
+      fill="freeze"
+    />
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 15;0 0;0 15"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+  </image>
+
+  <!-- =========================================
+       TITLE
+  ========================================== -->
+
+  <text
+    x="600"
+    y="325"
+    text-anchor="middle"
+    fill="white"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="48"
+    font-weight="700"
+    letter-spacing="-1"
+  >
+    Welcome to Zenomo Studios
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="1.5s"
+      begin="0.5s"
+      fill="freeze"
+    />
+
+    <animate
+      attributeName="y"
+      values="350;325"
+      dur="1.2s"
+      begin="0.5s"
+      fill="freeze"
+    />
+  </text>
+
+  <!-- =========================================
+       BOTTOM DIVIDER
+  ========================================== -->
+
+  <image
+    x="175"
+    y="350"
+    width="850"
+    height="55"
+    preserveAspectRatio="xMidYMid meet"
+    xlink:href="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetD.png"
+  >
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="1.5s"
+      begin="0.8s"
+      fill="freeze"
+    />
+  </image>
+
+  <!-- =========================================
+       SUBTLE SHIMMER
+  ========================================== -->
+
+  <rect
+    x="-300"
+    y="0"
+    width="180"
+    height="430"
+    fill="white"
+    fill-opacity="0.08"
+    transform="skewX(-20)"
+  >
+    <animate
+      attributeName="x"
+      values="-300;1400"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+</svg>
