@@ -1,12 +1,6 @@
 <div align="center">
 
-<img
- src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetB.webp"
- width="100%"
- alt="Zenomo Studios banner"
-/>
-
-<br><br>
+  <!-- AssetD — top divider -->
 
 <img
  src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetD.png"
@@ -14,7 +8,35 @@
  alt=""
 />
 
-  <br>
+<br><br>
+
+  <!-- AssetB — animated banner -->
+
+  <div style="position: relative; display: inline-block; width: 100%; max-width: 1200px;">
+
+```
+<img
+  src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetB.webp"
+  width="100%"
+  alt="Zenomo Studios"
+/>
+```
+
+  </div>
+
+<br><br>
+
+  <!-- AssetD — bottom divider -->
+
+<img
+ src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetD.png"
+ width="80%"
+ alt=""
+/>
+
+<br><br>
+
+  <!-- Logo -->
 
 <img
  src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/ZenomoL.png"
@@ -24,13 +46,9 @@
 
   <h1>Welcome to Zenomo Studios</h1>
 
-<img
- src="https://raw.githubusercontent.com/ZenomoStudios/ZenomoStudios/main/assets/AssetD.png"
- width="80%"
- alt=""
-/>
+  <br>
 
-<br><br>
+  <!-- Devicons -->
 
   <h2>Technologies &amp; Tools</h2>
 
